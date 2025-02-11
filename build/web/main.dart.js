@@ -100344,7 +100344,7 @@ A.bt("Connecting to WebSocket...")
 A.bt("User ID: "+o.a.c)
 A.bt("Other user ID: "+o.a.d)
 q=o.a
-s=A.dF("ws://https://daili-ai.onrender.com/chat?user_id="+q.c+"&other_user_id="+q.d,0,n)
+s=A.dF("wss://https://daili-ai.onrender.com/chat?user_id="+q.c+"&other_user_id="+q.d,0,n)
 A.bt("WebSocket URL: "+A.h(s))
 try{o.d=A.b_A(s,n)
 A.bt("WebSocket connection initiated")
