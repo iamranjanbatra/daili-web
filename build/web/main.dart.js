@@ -101552,7 +101552,7 @@ s=p}while(true)switch(s){case 0:g="Given context: "+a+". Provide a summary of th
 p=4
 k=A.df("https://api.openai.com/v1/chat/completions",0,null)
 j=t.N
-i=A.am(["Content-Type","application/json","Authorization","Bearer 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"],j,j)
+i=A.am(["Content-Type","application/json","Authorization","Bearer "],j,j)
 s=7
 return A.I(A.kW(k,B.P.kp(A.am(["model","gpt-4o-mini","messages",A.a([A.am(["role","user","content",g],j,j)],t.m0),"max_tokens",100],j,t.K),null),i),$async$Ct)
 case 7:n=c
