@@ -97177,7 +97177,7 @@ break
 case 2:j.gK().cc(0)
 j=A.dd("https://daili-ai.onrender.com/login",0,null)
 p=t.N
-p=A.am(["Content-Type","application/x-www-form-urlencoded; charset=UTF-8"],p,p)
+p=A.am(["Content-Type","application/x-www-form-urlencoded; charset=UTF-8","Accept","application/json"],p,p)
 s=4
 return A.O(A.kD(j,"username="+A.zg(B.q3,q.e,B.a5,!1)+"&password="+A.zg(B.q3,q.f,B.a5,!1),p),$async$lJ)
 case 4:o=b
